@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1220px;
+}
+body{
+    background-color: #000000;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    list-style: none;
+}
+header nav ul a{
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+}
+/* 
+-------------------------------------------------------------------------------------------------------------
+                                         S1
+-------------------------------------------------------------------------------------------------------------
+*/
+.s1{
+    background-image: url(./img/s1\ 2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.h1{
+    background-color: #fff;
+    width: 600px;
+    height: 75px;
+    margin: 37px 375px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: 16px 18px 28px 0px #FFFFFF40;
+}
+h1{
+    font-family: "Inter", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+}
+.ccc1{
+    display: flex;
+    justify-content: space-between;
+}
+.r{
+    width: 200px;
+    height: 200px;
+    background-color: #F70101;
+    position: absolute;
+    z-index: 2;
+    bottom: 200px;
+    left: 120px;
+}
+.g{
+    width: 200px;
+    height: 200px;
+    background-color: #32FB00;
+    position: relative;
+    z-index: 1;
+}
+.r p{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+}
+.g p{
+    font-size: 24px;
+    font-weight: 700;
+    color: #F70101;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+}
+.r2{
+    width: 200px;
+    height: 200px;
+    background-color: #F70101;
+    position: absolute;
+    z-index: 2;
+    bottom: 200px;
+    right: 120px;
+}
+.g2{
+    width: 200px;
+    height: 200px;
+    background-color: #32FB00;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.r2 p{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+}
+.g2 p{
+    font-size: 24px;
+    font-weight: 700;
+    color: #F70101;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+}
+.g1{
+    width: 200px;
+    height: 200px;
+    background-color: #32FB00;
+    position: relative;
+    z-index: 1;
+}
+.r1{
+    width: 400px;
+    border-radius: 100px;
+    height: 200px;
+    background-color: #F70101;
+    position: absolute;
+    z-index: 2;
+    bottom: 200px;
+    text-align: center;
+}
+.r1 p{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+}
+.g1 p{
+    font-size: 24px;
+    font-weight: 700;
+    color: #F70101;
+    display: flex;
+    padding-bottom: 100px;
+    justify-content: center;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+}
+/* 
+-------------------------------------------------------------------------------------------------------------
+                                         S2
+-------------------------------------------------------------------------------------------------------------
+*/
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.c1{
+    text-align: center;
+    color: #fff;
+    width: 360px;
+    height: 330px;
+    background-color: #7B2525;
+}
+.c1 h3{
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+    padding: 50px 118px 10px 118px;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+    text-align: center;
+}
+.c1 p{
+    max-width: 256px;
+    margin: 68px 51px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+/* 
+-------------------------------------------------------------------------------------------------------------
+                                         Footer
+-------------------------------------------------------------------------------------------------------------
+*/
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+footer nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    list-style: none;
+}
+footer nav ul a{
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+}
